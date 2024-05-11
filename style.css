@@ -1,0 +1,84 @@
+:root{
+      --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      --transition: all 0.3s linear;
+}
+*body{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+      
+}
+section{
+      padding:3rem 1rem;
+      margin: 0.1rem 0rem;
+}
+main {
+      width:80%;
+      margin-left :55px;
+     place-items: center;  
+    }
+
+.title {
+      text-align: center;  
+    }
+.underline {
+      height:2px;
+      width:6px;
+      
+    }
+.reviews {
+      background: white;
+      padding: 0rem 8.5rem;
+     text-align: center;
+     border-radius: var(--radius);
+     box-shadow: var(--light-shadow);
+     transition: var(--transition);
+     text-align: center;
+}
+.img-container {
+      
+      width:100px;
+      height:100px;
+      border-radius:67%;
+      margin:0 auto;
+      margin-bottom:0,1rem;
+}
+#person-img {
+      width: 100%;
+      display: block;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      position: relative;
+    }
+#author {
+      margin-bottom:25px;
+    }
+ #job {
+      margin-bottom: 0.2rem;
+      text-transform: uppercase;
+      font-size:0.90rem;
+    }
+#info {
+      margin: 0px 0px 12px;
+      font-size:10px;
+    }
+
+.prev-btn,
+.next-btn {
+  
+  color:gray;
+  font-size:3 3px;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+  
+}
+.random-btn {
+      margin-top:2px;
+      padding: 2px 2px;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
